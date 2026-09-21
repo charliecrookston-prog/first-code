@@ -1,0 +1,175 @@
+html {
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  overflow: scroll;
+  margin: 0 auto;
+}
+
+.nav {
+  margin: -20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 16%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  transform: translateY(-360px);
+  transform: translateX(-440px);
+  box-sizing: border-box;
+  border: 1px solid rgb(165, 28, 28);
+  padding: 10px;
+}
+
+.nav a {
+  color: rgb(165, 28, 28);
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav a:hover {
+  color: black;
+  transition: transform 0.1s ease;
+  background-color: rgb(165, 28, 28);
+}
+
+.form {
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  scale: 0.5;
+  color: rgb(165, 28, 28);
+  top: -25%;
+  left: -10%;
+  transform: translate(-77%, 100%);
+  font-size: 30px;
+  overflow: hidden;
+}
+
+.form label {
+  font-size: 40px;
+  color: rgb(165, 28, 28);
+  position: relative;
+  display: flex;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form textarea {
+  position: flex;
+  overflow: hidden;
+  padding: 5px;
+  background-color: rgb(165, 28, 28);
+  font-size: 30px;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.form input {
+  top: 15%;
+  font-size: 30px;
+  box-sizing: border-box;
+  border: solid rgb(165, 28, 28);
+  background-color: black;
+  color: rgb(165, 28, 28);
+}
+.body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 1;
+  font-style: caleb-mono;
+}
+
+.body h1 {
+  display: block;
+  color: rgb(165, 28, 28);
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  scale: 1.5;
+  box-sizing: border-box;
+  border: 1px solid rgb(165, 28, 28);
+}
+.body p {
+  color: rgb(165, 28, 28);
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.doom__image {
+  scale: 0.5;
+  transform: translateY(-55%);
+  box-sizing: border-box;
+  border: 2px solid rgb(165, 28, 28);
+  overflow: hidden;
+}
+
+.card__card__Mira {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  top: 25%;
+  left: 100%;
+  transform: translateY(-999px);
+  box-sizing: border-box;
+  transform: translate(-51%, -50%);
+  color: rgb(165, 28, 28);
+}
+
+.card__card__Mira p {
+  position: fixed;
+  transform: translateY(110px);
+  color: rgb(165, 28, 28);
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+  box-sizing: border-box;
+  border: 1px solid rgb(165, 28, 28);
+  padding: 5px;
+}
+
+.card__card__Mira-img {
+  scale: 0.1;
+  box-sizing: border-box;
+
+  border: solid 10px rgb(165, 28, 28);
+}
+
+.main h2 {
+  position: fixed;
+  justify-content: center;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translateY(-49%, -50%);
+  color: rgb(165, 28, 28);
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.main p {
+  position: fixed;
+  justify-content: center;
+  top: 65%;
+  left: 20%;
+  transform: translate(-10%, -10%);
+  transform: translateY(-50%, -50%);
+  color: rgb(165, 28, 28);
+  text-align: center;
+}
+
+@keyframes {
+}
