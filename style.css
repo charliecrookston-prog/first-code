@@ -171,5 +171,9 @@ html {
   text-align: center;
 }
 
-@keyframes {
+@media (max-width: 480px){
+.html {
+    display:block;
+    width: 100%;
+  }
 }
