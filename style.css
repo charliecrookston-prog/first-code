@@ -1,8 +1,33 @@
-html {
+@media (max-width: 1200px){
+  .body{
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px){
+.body {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 768px){
+  .body {
+    width: 100%;
+  }
+}
+
+html{
+  width: 100%;
   position: fixed;
   background-color: rgb(0, 0, 0);
   overflow: scroll;
   margin: 0 auto;
+}
+
+.body {
+  margin:0 auto;
 }
 
 .nav {
@@ -33,7 +58,7 @@ html {
   background-color: rgb(165, 28, 28);
 }
 
-.form {
+.body__form {
   position: fixed;
   display: flex;
   justify-content: flex-start;
@@ -46,7 +71,7 @@ html {
   overflow: hidden;
 }
 
-.form label {
+.body__form label {
   font-size: 40px;
   color: rgb(165, 28, 28);
   position: relative;
@@ -56,7 +81,7 @@ html {
   font-style: normal;
 }
 
-.form textarea {
+.body__form textarea {
   position: flex;
   overflow: hidden;
   padding: 5px;
@@ -69,7 +94,7 @@ html {
   border: 2px solid black;
 }
 
-.form input {
+.body__form input {
   top: 15%;
   font-size: 30px;
   box-sizing: border-box;
@@ -77,7 +102,7 @@ html {
   background-color: black;
   color: rgb(165, 28, 28);
 }
-.body {
+.banner {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -87,7 +112,7 @@ html {
   font-style: caleb-mono;
 }
 
-.body h1 {
+.banner h1 {
   display: block;
   color: rgb(165, 28, 28);
   font-family: "Share Tech Mono", monospace;
@@ -97,14 +122,14 @@ html {
   box-sizing: border-box;
   border: 1px solid rgb(165, 28, 28);
 }
-.body p {
+.banner p {
   color: rgb(165, 28, 28);
   font-family: "Share Tech Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
 
-.doom__image {
+.banner .doom__image {
   scale: 0.5;
   transform: translateY(-55%);
   box-sizing: border-box;
@@ -169,11 +194,7 @@ html {
   transform: translateY(-50%, -50%);
   color: rgb(165, 28, 28);
   text-align: center;
-}
-
-@media (max-width: 480px){
-.html {
-    display:block;
-    width: 100%;
-  }
+font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
